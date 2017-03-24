@@ -1,0 +1,335 @@
+@IMPORT url("common.css");
+
+::-webkit-input-placeholder { color: #999;/* WebKit browsers */ } 
+:-moz-placeholder { color: #999;/* Mozilla Firefox 4 to 18 */ } 
+::-moz-placeholder { color: #999;/* Mozilla Firefox 19+ */ } 
+:-ms-input-placeholder { color: #999;/* Internet Explorer 10+ */ }
+
+
+.main_DIV{ /* font-size:0px; */  }
+.head-Banner-DIV{ height:724px; position:relative; }
+
+header{ width:100%; position:absolute; top:0px; z-index:2; }
+header>div{ width:1200px; margin:0 auto; }
+header>div>a{ width:176px; height:52px; float:left; margin-top:24px; display:inline-block; }/* logo */
+header>div>ul{ height:78px; float:right; display:block; /* opacity:0; */ }
+header>div>ul li{ height:76px; float:left; margin:0 17px; overflow:hidden; }
+header>div>ul li:NTH-LAST-OF-TYPE(1){ margin-right:0px; }
+header>div>ul li a{ width:64px; font-size:16px; line-height:16px; text-align:center; color:#fff; padding:40px 13px 20px 13px; display:block; }
+header>div>ul li:NTH-OF-TYPE(1) a{ width:32px; }
+header>div>ul li a:HOVER{ color:#fff; }
+header>div>ul li i{ width:90px; height:2px; background-color:#fff; display:block; }
+header>div>ul li:NTH-OF-TYPE(1) i{ width:58px; }
+header>div>ul li.on,header>div>ul li:HOVER { height:78px; }
+header>div>i{ width:24px; height:24px; margin:35px 10px 0 0; float:right; display:none; cursor:pointer; }
+/*	banner	  */
+.banner-DIV { width:100%; height:722px; position:relative; overflow:hidden; background:#fff; position:absolute; top:0px; z-index:1; }
+.banner-DIV .bannerImg_UL{ width:100%; height:690px; position:relative; }
+.banner-DIV .bannerImg_UL li{ position:absolute; width:100%; height:100%; }
+.banner-DIV .bannerImg_UL li a{ display:block; width:100%; height:100%; }
+.banner-DIV .bannerBtn_UL{ position:absolute; bottom:0px; width:100%; text-align:center; }
+.banner-DIV .bannerBtn_UL li{ display:inline; cursor:pointer; margin:0 3px }
+.banner-DIV .DB_dirBtn{ position:absolute;width:1060px; height:0; top:140px; left:50%; margin-left:-530px; }
+.banner-DIV .DB_dirBtn .DB_prev{ position:absolute;left:0px;cursor:pointer; }
+.banner-DIV .DB_dirBtn .DB_next{ position:absolute;right:0px;cursor:pointer; }
+/*	我们的优势	  */
+.advantage-DIV { width:1000px; margin:0 auto; clear:both; }
+.advantage-DIV>h1{ font-size:30px; line-height:30px; color:#444; text-align:center; padding-top:70px; padding-bottom:63px; }
+.advantage-DIV>div{ margin-bottom:140px; overflow:hidden; }
+.advantage-DIV>div dl{ width:33.33%; float:left; }
+.advantage-DIV>div dl dt{ height:140px; text-align:center; }
+.advantage-DIV>div dl dt i{ width:140px; height:140px; display:inline-block; }
+.advantage-DIV>div dl dd p{ max-width:140px; color:#444; text-align:center; margin:0 auto; padding-top:20px; overflow:hidden; }
+.advantage-DIV>div dl dd p:NTH-OF-TYPE(1){ font-size:20px; line-height:20px; }
+.advantage-DIV>div dl dd p:NTH-OF-TYPE(2){ font-size:14px; line-height:14px; }
+.advantage-DIV>div dl dd p:NTH-OF-TYPE(2)>span{ margin-left:8px; }
+/*	搜索	  */
+.search-DIV{ height:420px; font-size:0px; }
+.search-DIV>h1{ color:#fff; font-size:30px; line-height:30px; text-align:center; padding-top:112px; padding-bottom:62px; }
+.search-DIV>div{ width:730px; margin:0 auto; }
+.search-DIV>div input{ width:566px; height:50px; font:bold 16px/16px 'theFZLTXHT'; background-color:#fff; border-radius:1px; padding:0 17px; }
+.search-DIV>div a{ width:120px; height:50px; font:bold 18px/50px 'theFZLTXHT'; color:#fff;  text-align:center; background-color:#00a579; display:inline-block; vertical-align:-1px; margin-left:10px; }
+.search-DIV>div a:HOVER{ background-color:#017e5d; }
+/*	平台	  */
+.planform-DIV{ background-color:#f3f6f9; padding-bottom:120px; }
+.planform-DIV>div{ width:1000px; margin:0 auto; overflow:hidden; }
+.planform-DIV dl { width:50%; float:left; }
+.planform-DIV dl dd:NTH-OF-TYPE(1) h1{ color:#444; font-size:30px; line-height:30px; text-align:center; padding:100px 0 24px 0; }
+.planform-DIV dl dd:NTH-OF-TYPE(1) p{ color:#444; font-size:14px; line-height:24px; height:48px; text-align:center; padding:0 0 10px 0; overflow:hidden; }
+.planform-DIV dl dt{ text-align:center; padding-bottom:54px; }
+.planform-DIV dl dt i{ display:inline-block; height:182px; }
+.planform-DIV dl:NTH-OF-TYPE(1) dt i{ width:221px; }
+.planform-DIV dl:NTH-OF-TYPE(2) dt i{ width:197px; }
+.planform-DIV dl dd:NTH-OF-TYPE(2) a{ width:150px; height:42px; font-size:14px; line-height:42px; color:#fff; text-align:center; background-color:#34a1ea; border-radius:1px; margin:0 auto; display:block; }
+.planform-DIV dl dd:NTH-OF-TYPE(2) a:HOVER { background-color:#2478be; }
+/*	行业解决方案 	 */
+.project-DIV{ width:100%; }
+.project-DIV>div{ width:1200px; margin:100px auto; }
+.project-DIV>div>h1{ color:#444; font-size:30px; line-height:30px; text-align:center; padding-bottom:62px; }
+.project-DIV>div>div{ overflow:hidden; }
+.project-DIV>div>div dl{ width:270px; float:left; margin-right:40px; }
+.project-DIV>div>div dl:NTH-OF-TYPE(4){ margin-right:0px; }
+.project-DIV>div>div dl dt a{ width:270px; height:175px; display:table-cell; text-align:center; vertical-align:middle; }
+.project-DIV>div>div dl:NTH-OF-TYPE(1) dt a{ background:url('../images/index/project11.png') no-repeat center }
+.project-DIV>div>div dl:NTH-OF-TYPE(1) dt a:HOVER{ background:url('../images/index/project11_hover.png') no-repeat center }
+.project-DIV>div>div dl:NTH-OF-TYPE(2) dt a{ background:url('../images/index/project22.png') no-repeat center }
+.project-DIV>div>div dl:NTH-OF-TYPE(2) dt a:HOVER{ background:url('../images/index/project22_hover.png') no-repeat center }
+.project-DIV>div>div dl:NTH-OF-TYPE(3) dt a{ background:url('../images/index/project33.png') no-repeat center }
+.project-DIV>div>div dl:NTH-OF-TYPE(3) dt a:HOVER{ background:url('../images/index/project33_hover.png') no-repeat center }
+.project-DIV>div>div dl:NTH-OF-TYPE(4) dt a{ background:url('../images/index/project44.png') no-repeat center }
+.project-DIV>div>div dl:NTH-OF-TYPE(4) dt a:HOVER{ background:url('../images/index/project44_hover.png') no-repeat center }
+.project-DIV>div>div dl dd{ margin-top:20px; text-align:center; }
+.project-DIV>div>div dl dd a{ color:#666; font-size:16px; line-height:16px; }
+.project-DIV>div>div dl dd a:HOVER{ text-decoration:underline; }
+.project-DIV>div>a{ width:146px; height:38px; line-height:42px; font-size:14px; color:#666; text-align:center; border:2px solid #e0e0e0; border-radius:1px; display:block; margin:65px auto 0 auto; }
+.project-DIV>div>a:HOVER { background-color:#34a1ea; color:#fff; }
+/*	介绍	  */
+.introduce-DIV{ height:600px; }
+.introduce-DIV>div{ width:1200px; margin:0 auto; }
+.introduce-DIV>div>h1{ color:#fff; font-size:30px; line-height:30px; padding:207px 0 15px 6px; }
+.introduce-DIV>div>p{ width:362px; color:#fff; font-size:14px; line-height:32px; padding:0 0 0 6px; }
+.introduce-DIV>div p:NTH-OF-TYPE(1){ margin-bottom:10px; }
+/*	商户合作  	*/
+.joinHands-DIV{ width:1000px; margin:0 auto; }
+.joinHands-DIV>h1{ color:#444; text-align:center; font-size:30px; line-height:30px; padding:100px 0px 22px 0px; }
+.joinHands-DIV>h2{ color:#666; text-align:center; font-size:18px; line-height:20px; padding:0px 0px 80px 0px; }
+.joinHands-DIV>form span{ width:256px; height:42px; color:#666; font-size:14px; line-height:42px; text-align:right; display:inline-block;  }
+.joinHands-DIV>form>div{ margin-bottom:36px; }
+.joinHands-DIV>form>div>p{ width:620px; margin-left:16px; vertical-align:text-top; display:inline-block; }
+.joinHands-DIV>form>div>p label{ min-width:138px; max-width:600px; max-height:18px; font-size:14px; line-height:18px; margin:0px 14px 30px 0px; display:inline-block; overflow:hidden; }
+.joinHands-DIV>form>div>p label input{ display:none; }
+.joinHands-DIV>form>div>p label i{ width:16px; height:16px; margin-right:10px; vertical-align:middle; background:url("../images/index/icons.png") no-repeat -476px -232px; display:inline-block; }
+.joinHands-DIV>form>div>p label input:CHECKED+i{ background:url("../images/index/icons.png") no-repeat -460px -232px; }
+.joinHands-DIV>form>p{ height:42px; margin-bottom:20px; }
+.joinHands-DIV>form>p>input{ width:510px; height:40px; border:1px solid #e1e1e1; padding:0px 14px; margin-left:16px; display:inline-block; }
+.joinHands-DIV>form>p>input.submit-INPUT{ width:130px; height:42px; border:0px; color:#fff; vertical-align:16px; background-color:#34a1ea; border-radius:2px; cursor:pointer; }
+.joinHands-DIV>form>p>input.submit-INPUT:HOVER { background-color:#2b8ccd; }
+/*	合作伙伴	  */
+.partner-DIV{ width:1200px; margin:0px auto 47px auto; font-size:0px; }
+.partner-DIV>h1{ color:#444; font-size:26px; line-height:26px; text-align:center; padding:62px 0px 48px 0px; }
+.partner-DIV>div a{ width:178px; height:68px; margin:0px 24px 28px 0px; border:1px solid #eaeaea; border-bottom:3px solid #eaeaea; display:inline-block; }
+.partner-DIV>div a:NTH-OF-TYPE(6n){ margin-right:0px; }
+.partner-DIV>div a i{ width:178px; height:68px; border:1px solid #eaeaea; display:table-cell; text-align:center; vertical-align:middle; } 
+.partner-DIV>div a i img{ max-width:178px; max-height:68px; }
+
+footer{ width:100%; color:#fff; font-size:0px; background-color:#444; overflow:hidden; } 
+footer>div{ width:1200px; margin:0 auto; }
+footer>div p{ width:50%; margin:46px 0px 52px 0px; display:inline-block; }
+footer>div p:NTH-OF-TYPE(1) span{ font-size:12px; line-height:12xp; }
+footer>div p:NTH-OF-TYPE(2){ text-align:right; }
+footer>div p:NTH-OF-TYPE(2) a{ color:#fff; font-size:12px; line-height:12xp; display:inline-block; margin:0 5px; }
+footer>div p:NTH-OF-TYPE(2) a:HOVER{ color:#ff4242; }
+footer>div p:NTH-OF-TYPE(2) i{ width:1px; height:12px; vertical-align:-1px; background-color:#fff; display:inline-block; }
+
+
+/*	子窗口区域	  */
+.subwin_mask_DIV{ visibility:hidden; width:100%; height:100%; position:fixed; top:0px; left:0px; background-color:gray; opacity:0.80; filter:alpha(opacity=80); -moz-opacity:0.80; z-index:1;}
+
+.subwin_alert_DIV{ visibility:hidden; width:540px; height:340px; background-color:#fff; position:fixed; top:50%; left:50%; margin:-170px 0 0 -270px; z-index:10; }
+.subwin_alert_DIV>i:NTH-OF-TYPE(1){ width:24px; height:24px; margin:30px 30px 0 0; float:right; display:block; cursor:pointer; }
+.subwin_alert_DIV>i:NTH-OF-TYPE(2){ width:60px; height:60px; margin:70px auto 26px auto; clear:both; display:block; }
+.subwin_alert_DIV>h1{ color:#424242; font-size:26px; line-height:26px; text-align:center; padding-bottom:60px; }
+.subwin_alert_DIV>a{ width:130px; height:42px; line-height:42px; font-size:14px; text-align:center; color:#fff; margin:0 auto; background-color:#34a1ea; border-radius:2px; display:block; }
+.subwin_alert_DIV>a:HOVER{ background-color:#2478be; }
+
+
+
+
+/*----- 响应式区域 ------------------------------------------------------------------------------------------*/
+@MEDIA screen and (max-width:1220px) {
+	header>div{ width:100%; margin:0 auto; }
+	header>div>a{ margin-left:10px; }
+	header>div>ul{ margin-right:10px; }
+	/*	行业解决方案	  */
+	.project-DIV>div{ width:580px; margin:100px auto; }
+	.project-DIV>div>div dl{ margin-bottom:10px; }
+	.project-DIV>div>div dl:NTH-OF-TYPE(2){ margin-right:0px; }
+	.project-DIV>div>a{ width:576px; margin:25px auto 0 auto; }
+	/*	介绍	  */
+	.introduce-DIV{ height:500px; }
+	.introduce-DIV>div{ width:85%; margin:0 auto; }
+	.introduce-DIV>div>h1{ padding:150px 0 15px 0px; }
+	.introduce-DIV>div>p{ width:30%; padding:0;}
+	/*	合作伙伴	5列  */
+	.partner-DIV{ width:1020px; margin:0px auto 47px auto; font-size:0px; }
+	.partner-DIV>div a{ margin:0px 12px 28px 12px; }
+	.partner-DIV>div a:NTH-OF-TYPE(6n){ margin-right:12px; }
+	
+	footer{ width:100%; color:#fff; font-size:0px; background-color:#444; overflow:hidden; } 
+	footer>div{ width:100%; margin:0 auto; }
+	footer>div p{ width:50%; margin:46px 0px 52px 0px;  display:inline-block; }
+	footer>div p:NTH-OF-TYPE(1) span{ padding-left:5px; }
+}
+
+
+@MEDIA screen and (max-width:1020px) {
+	/*	我们的优势	  */
+	.advantage-DIV { width:100%; margin:0 auto; clear:both; }
+	/* 搜索		 */
+	.search-DIV>div{ width:600px; margin:0 auto; }
+	.search-DIV>div input{ width:566px; height:50px; font:bold 16px/16px 'theFZLTXHT'; background-color:#fff; border-radius:1px; padding:0 17px; }
+	.search-DIV>div a{ width:600px; height:50px; font:bold 18px/50px 'theFZLTXHT'; color:#fff;  text-align:center; background-color:#00a579; display:block; vertical-align:0px; margin:15px auto; }
+	/*	平台	  */
+	.planform-DIV>div{ width:100%; }
+	.planform-DIV dl dd:NTH-OF-TYPE(1) p{ line-height:24px; padding:0 20px 58px 20px; }
+	/*	介绍	  */
+	.introduce-DIV{ height:480px; }
+	/*	商户合作  	*/
+	.joinHands-DIV{ width:100%; }
+	.joinHands-DIV>form span{ width:25.6%; display:inline-block;  }
+	.joinHands-DIV>form>div>p{ width:64.4%; vertical-align:text-top; display:inline-block; }
+	.joinHands-DIV>form>p{ margin-bottom:20px; }
+	.joinHands-DIV>form>p>input{ width:450px; display:inline-block; }
+	.joinHands-DIV>form>p>input.submit-INPUT{ width:130px; height:42px; border:0px; padding:0px; color:#fff; background-color:#34a1ea; border-radius:2px; cursor:pointer; }
+	/*	合作伙伴	4列  */
+	.partner-DIV{ width:816px; }
+}
+
+@MEDIA screen and (max-width:820px){
+	/*	合作伙伴	3列  */
+	.partner-DIV{ width:612px; }
+}
+
+@MEDIA screen and (max-width:720px) {
+	.head-Banner-DIV{ height:624px; position:relative; }
+	header>div>ul{ width:100%; margin:0px; float:none; position:absolute; top:78px; display:none; /* opacity:0; */ }
+	header>div>ul li{ height:75px; margin:0px; float:none; background-color:#000; overflow:hidden; }
+	header>div>ul li a{ width:100%; line-height:75px; font-size:16px; text-align:center; color:#fff; padding:0px; display:block; }
+	header>div>ul li:NTH-OF-TYPE(1) a{ width:100%; }
+	header>div>ul li i{ width:80%; height:2px; margin:0 auto; background-color:#999; display:block; }
+	header>div>ul li:NTH-OF-TYPE(1) i{ width:80%; }
+	header>div>ul li.on,header>div>ul li:HOVER { height:75px; background-color:#333; }
+	header>div>i{ width:24px; height:24px; margin:35px 10px 0 0; float:right; display:none; cursor:pointer; }
+	header>div>i{ display:inline-block; }
+	/*	banner	  */
+	.banner-DIV{ height:622px; }
+	.banner-DIV .bannerImg_UL{ height:590px; }
+	/*	我们的优势	  */
+	.advantage-DIV>div{ margin-bottom:100px; }
+	/*	介绍	  */
+	.introduce-DIV{ height:400px; }
+	.introduce-DIV>div>h1{ padding:50px 0 15px 0px; }	
+	/*	商户合作  	*/
+	.joinHands-DIV{ width:100%; }
+	.joinHands-DIV>h2{ width:85%; margin:0 auto; padding-bottom:40px; }
+	.joinHands-DIV>form span{ display:none;  }
+	.joinHands-DIV>form>div>span{ width:90%; text-align:left; margin-left:16px; display:block;  }
+	.joinHands-DIV>form>div{ margin-bottom:10px; }
+	.joinHands-DIV>form>div>p{ width:90%; vertical-align:text-top; display:block; }
+	.joinHands-DIV>form>div>p label{ max-width:70%; margin:0px 14px 10px 0px; }
+	.joinHands-DIV>form>p{ margin-bottom:10px; }
+	.joinHands-DIV>form>p>input{ width:85%; display:block; }
+}
+
+
+/*	iPhone 6 Plus  */
+@MEDIA screen and (max-width:620px) {
+	.head-Banner-DIV{ height:524px; position:relative; }
+	/*	banner	  */
+	.banner-DIV{ height:522px; }
+	.banner-DIV .bannerImg_UL{ height:490px; }
+	/*	我们的优势	  */
+	.advantage-DIV>div{ margin-bottom:50px; }
+	/* 搜索		 */
+	.search-DIV{ height:280px; }
+	.search-DIV>h1{ padding-top:60px; padding-bottom:30px; }
+	.search-DIV>div{ width:100%; }
+	.search-DIV>div input{ width:85%; display:block; margin:0 auto; }
+	.search-DIV>div a{ width:85%; padding:0 17px; }
+	/*	平台	  */
+	.planform-DIV>div{ width:100%; }
+	.planform-DIV dl{ width:50%; float:left; }
+	.planform-DIV dl{ width:90%; float:none; margin:0 auto; }
+	.planform-DIV dl dt{ padding-bottom:5px; }
+	/*	行业解决方案	  */
+	.project-DIV>div{ width:270px; margin:100px auto; }
+	.project-DIV>div>div dl{ float:none; margin-bottom:10px; }
+	.project-DIV>div>div dl{ margin-right:0px; }
+	.project-DIV>div>a{ width:100%; }
+	/*	介绍	  */
+	.introduce-DIV{ height:400px; }
+	.introduce-DIV>div>h1{ padding:30px 0 10px 0px; }
+	.introduce-DIV>div>p{ line-height:28px; }
+	/*	合作伙伴	2列  */
+	.partner-DIV{ width:408px; }
+	
+	footer{ width:100%; color:#fff; font-size:0px; background-color:#444; overflow:hidden; } 
+	footer>div{ width:100%; margin:0 auto; }
+	footer>div p{ width:100%; margin:20px 0px 20px 0px; text-align:center; display:block; }
+	footer>div p:NTH-OF-TYPE(1){ margin-top:30px; }
+	footer>div p:NTH-OF-TYPE(1) span{ padding-left:0px; }
+	footer>div p:NTH-OF-TYPE(2){ text-align:center; }
+	footer>div p:NTH-OF-TYPE(2) a{ color:#fff; font-size:12px; line-height:12xp; display:inline-block; margin:0 5px; }
+	footer>div p:NTH-OF-TYPE(2) a:HOVER{ color:red; }
+	footer>div p:NTH-OF-TYPE(2) i{ width:1px; height:12px; vertical-align:-1px; background-color:#fff; display:inline-block; }
+	
+	/*	子窗口	  */
+	.subwin_alert_DIV{ width:420px; height:240px; margin:-120px 0 0 -210px; }
+	.subwin_alert_DIV>i:NTH-OF-TYPE(1){ width:24px; height:24px; margin:30px 30px 0 0; float:right; display:block; cursor:pointer; }
+	.subwin_alert_DIV>i:NTH-OF-TYPE(2){ margin:0px auto 26px auto; background }
+	.subwin_alert_DIV>h1{ font-size:20px; line-height:20px; text-align:center; padding-bottom:20px; }
+}
+
+
+@MEDIA screen and (max-width:440px) {
+	/*	我们的优势	  */
+	.advantage-DIV { width:100%; margin:0 auto; clear:both; }
+	.advantage-DIV>div{ margin-bottom:30px; }
+	.advantage-DIV>div dl{ width:50%; margin-bottom:20px; display:inline-block; }
+	.advantage-DIV>div dl:NTH-OF-TYPE(3){ width:100%; }
+	/*	介绍	  */
+	.introduce-DIV>div>p{ line-height:24px; }
+	
+	/*	子窗口	  */
+	.subwin_alert_DIV{ width:300px; height:240px; margin:-120px 0 0 -150px; }
+	.subwin_alert_DIV>h1{ font-size:14px; line-height:20px; text-align:center; padding-bottom:20px; }
+	
+}
+
+
+/*	iPhone 6 Plus  */
+@MEDIA screen and (max-width:414px) {
+	.head-Banner-DIV{ height:424px; position:relative; }
+	/*	banner	  */
+	.banner-DIV{ height:422px; }
+	.banner-DIV .bannerImg_UL{ height:390px; }
+	/*	我们的优势	  */
+	.advantage-DIV>div{ margin-bottom:20px; }
+	/*	介绍	  */
+	.introduce-DIV>div>p{ line-height:20px; }
+	/*	合作伙伴	3列  */
+	.partner-DIV{ width:204px; }
+}
+
+
+/*	iPhone 6	*/
+@MEDIA screen and (max-width:375px) {
+	.head-Banner-DIV{ height:374px; position:relative; }
+	/*	banner	  */
+	.banner-DIV{ height:372px; }
+	.banner-DIV .bannerImg_UL{ height:340px; }
+	/*	合作伙伴	  */
+	.partner-DIV{ width:204px; }
+}
+
+
+/*	iPhone 4	*/
+@MEDIA screen and (max-width:320px) {
+	.head-Banner-DIV{ height:354px; position:relative; }
+	/*	banner	  */
+	.banner-DIV{ height:322px; }
+	.banner-DIV .bannerImg_UL{ height:290px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
